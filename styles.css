@@ -7,3 +7,16 @@ main {
 main> * {
   flex: 1;
 }
+
+select, button{
+  height: 2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: solid 1rem black;
+}
+form>*{
+  margin: 1rem;
+}
